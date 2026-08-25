@@ -1,0 +1,18 @@
+# Local and operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+
+# Local logs and environment overrides
+*.log
+.env
+.env.*
+!.env.example
+
+# Keep project documentation tracked
+!*.md
